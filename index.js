@@ -1,8 +1,8 @@
 "use strict";
 
 function bracketCheker(str) {
-  const openArr = ["(", "{", "["];
-  const closeArr = [")", "}", "]"];
+  const openArr = ["(", "{", "[", "<"];
+  const closeArr = [")", "}", "]", ">"];
   const strArr = str.split("");
 
   const suspectsArr = [];
